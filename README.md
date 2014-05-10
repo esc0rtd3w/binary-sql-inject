@@ -1,6 +1,7 @@
 # SQL Injection on Binary MD5 Hash
 ## The Goal
-Perform an injection attach on a webiste using a binary MD5 hash to sanitize
+For educational purposes, perform an injection attack on a webiste (set up
+explicitly for this exercise) that uses a binary MD5 hash to sanitize
 form input. Because the PHP is hashing to raw binary rather than a string
 hexadecimal representation, PHP can interpret those bytes as any character, even
 dangerous ones. To exploit this, we need to find out what input provides the
